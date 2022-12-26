@@ -8,13 +8,17 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <h1 id="clock">00:00</h1>
+    <h1 id="greeting" class="hidden"></h1>
     <form id="login-form" class="hidden">
       <input required maxlength="15" type="text" placeholder="Name" />
       <input type="submit" value="Login" />
     </form>
-    <h1 id="clock">00:00</h1>
-    <h1 id="greeting" class="hidden"></h1>
-
+    
     <form id="todo-form">
       <input type="text" placeholder="write a To do" required />
     </form>
