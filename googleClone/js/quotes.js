@@ -48,5 +48,5 @@ const author = document.querySelector("#quote span:last-child");
 
 const ramdomQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
-quote.innerText = ramdomQuote.quote;
-author.innerText = ramdomQuote.author;
+quote.innerText = `" ${ramdomQuote.quote} "`;
+author.innerText = `${ramdomQuote.author}`;

@@ -18,7 +18,7 @@ const savedUsername = localStorage.getItem(USERNAME_KEY);
 
 function saveName(name) {
   greeting.classList.remove(classNameHidden);
-  greeting.innerText = `Your name is ${name}`;
+  greeting.innerText = `Hello, ${name}`;
 }
 
 if (savedUsername === null) {
