@@ -1,8 +1,6 @@
-/* @import "reset.css"; */
 @import "screen/desktop.css";
 @import "screen/mobile.css";
 @import "variable.css";
-/* @import */
 
 .hidden {
   display: none;
